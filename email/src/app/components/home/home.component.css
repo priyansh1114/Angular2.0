@@ -1,0 +1,40 @@
+/* Style for the container */
+.container {
+    max-width: 600px; /* Example maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center; /* Align content center horizontally */
+}
+
+/* Style for the heading */
+.container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for the paragraph */
+.container p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Style for the button */
+.container button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.container button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,38 @@
+/* Custom styles for mat-toolbar */
+.mat-toolbar {
+   background-color: #1976d2; /* Primary color for the toolbar */
+   color: #ffffff; /* Text color for toolbar content */
+   font-size: 20px; /* Font size for toolbar content */
+   font-weight: bold; /* Font weight for toolbar content */
+   padding: 0 16px; /* Padding inside the toolbar */
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth */
+   display: flex; /* Use flexbox to align items */
+   justify-content: space-between; /* Space items evenly across the toolbar */
+   align-items: center; /* Center items vertically */
+}
+
+/* Styles for the mat-icon-button */
+.mat-icon-button {
+   line-height: 1; /* Adjust line height to center icon */
+   color: #ffffff; /* Icon color */
+   padding: 8px; /* Padding around the icon */
+   border-radius: 50%; /* Round the button for circular shape */
+   transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Hover effect for the mat-icon-button */
+.mat-icon-button:hover {
+   background-color: rgba(255, 255, 255, 0.1); /* Lighten background on hover */
+}
+
+/* Styles for the mat-icon inside the button */
+.mat-icon {
+   font-size: 24px; /* Icon size */
+   vertical-align: middle; /* Align icon vertically */
+   margin-right: 4px; /* Space between icon and text */
+}
+
+/* Styles for the span inside the mat-toolbar */
+.mat-toolbar span {
+   margin-left: 8px; /* Space between icon and text */
+}

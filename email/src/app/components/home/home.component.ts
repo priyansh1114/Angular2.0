@@ -1,13 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
+import {MatSnackBar, MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MatButtonModule],
+  imports: [MatButtonModule,MatSnackBarModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit{
 
+  constructor(private snack:MatSnackBar){}
+ngOnInit(): void {
+  
+}
+  btnClick(){
+    console.log("btn ckicked")
+    this.snack.open("Hey Welcome to app")
+  }
 }
